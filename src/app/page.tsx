@@ -1,4 +1,6 @@
 import styles from "./page.module.css";
+import { Button } from "@/components/ui/button"
+ 
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
         </p>
+        <Button>Click me</Button>
       </main>
       <footer className={styles.footer}>
         <h1>Footer</h1>
