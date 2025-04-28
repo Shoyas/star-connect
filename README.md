@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StarConnect
 
-## Getting Started
+The Star Connect Platform is an innovative web-based solution designed to bridge
+the gap between users and verified experts across various fields. It offers diverse
+services, including text messages, personalized video responses, and interactive
+group call sessions. A standout feature of the platform is the Star Wish module,
+enabling users to request customized video messages tailored for special occasions
+or personal needs. This document provides a comprehensive overview of the
+platform’s functional requirements, detailing user and expert workflows, payment
+and earnings management, scheduling capabilities, and communication processes to
+ensure a seamless and engaging user experience.
 
-First, run the development server:
+## How to run this project
+
+1. Copy the environment variables file:
+
+1. Clone the repository:
+
+```bash
+git clone "github-repository-link"
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. For development:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. For build the project before production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. For production:
 
-## Learn More
+```bash
+npm start
 
-To learn more about Next.js, take a look at the following resources:
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Testing Everything
+Test 1 — Check ESLint manually
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+```
 
-## Deploy on Vercel
+👉 See if ESLint shows warnings/errors.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Test 2 — Auto-fix ESLint issues
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint:fix
+```
+
+👉 ESLint should fix as much as it can automatically.
+
+Test 3 — Format your code
+
+```bash
+npm run format
+```
+
+👉 Prettier should reformat everything cleanly.
+
+Test 4 — Git Commit Testing (Husky)
+Modify a .ts or .tsx file badly (wrong spacing, etc.).
+
+```bash
+git add .
+
+git commit -m "Here will be your First Commit"
+```
+
+👉 Husky will automatically run lint-staged and fix or block commit if errors.
+If everything is clean → commit will happen successfully.
+
+🎯 Full Commands Summary
+Task
+Command
+Install all tools
+npm install -D eslint prettier eslint-config-prettier eslint-plugin-prettier prettier-plugin-tailwindcss husky lint-staged
+Initialize husky
+npx husky install
+Prepare husky after install
+npm run prepare
+Add husky pre-commit hook
+npx husky add .husky/pre-commit "npx lint-staged"
+Lint check manually
+npm run lint
+Fix lint errors
+npm run lint:fix
+Format code with prettier
+npm run format
+
+✅ Folder Structure
+
+# Place here the folder structure
+
+# 🌟 StarConnect
+
+> **"Bridging Dreams with Experts"**
+
+The **StarConnect Platform** is an innovative web-based solution that connects users with verified experts across diverse fields.  
+Whether it's text messaging, personalized video responses, interactive group calls, or special **Star Wishes**, StarConnect makes every interaction **seamless, meaningful, and engaging**.
+
+---
+
+## 🚀 Features
+
+- 📩 Direct Text Messaging with Experts
+- 🎥 Personalized Video Responses
+- 📞 Interactive Group Call Sessions
+- 🌠 **Star Wish** – Request customized videos for special occasions
+- 💳 Secure Payments & Earnings Management
+- 📅 Smart Scheduling System
+- 📬 Seamless Communication & Notifications
+
+---
+
+## 🛠️ How to Run the Project
+
+Follow these simple steps to set up and run **StarConnect** locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone "your-github-repository-link"
+```
