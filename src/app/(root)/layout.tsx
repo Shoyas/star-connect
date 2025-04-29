@@ -1,4 +1,5 @@
-
+import Footer from "@/components/shared-components/footer";
+import Navbar from "@/components/shared-components/navbar";
 
 
 const RootLayout = async ({
@@ -8,9 +9,9 @@ const RootLayout = async ({
 }) => {
   return (
     <>
-      <h1>Shared Navbar</h1>
+      <Navbar />
       {children}
-      <h1>Shared Footer</h1>
+      <Footer />
     </>
   );
 }

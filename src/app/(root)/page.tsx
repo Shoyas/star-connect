@@ -1,15 +1,14 @@
-import { Button } from "@/components/ui/button"
-
+import HeroSection from "@/components/root-components/hero-section";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-greenColor-50 font-bold underline text-center">
-        Hello From Home Page!
-      </h1>
-
-      <Button>Click me</Button>
-    </div>
+    <>
+      <main>
+        <section className="h-screen w-full bg-gradient-to-b from-[#0f172a] to-[#83a4d8]">
+          <HeroSection />
+        </section>
+      </main>
+    </>
   );
 }
 
