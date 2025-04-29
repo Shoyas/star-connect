@@ -2,7 +2,7 @@
 
 ---
 
-> **"Bridging Dreams with Experts"**
+> **"[TagLine]"**
 
 The **StarConnect Platform** is an innovative web-based solution that connects users with verified experts across diverse fields.  
 Whether it's text messaging, personalized video responses, interactive group calls, or special **Star Wishes**, StarConnect makes every interaction **seamless, meaningful, and engaging**.
