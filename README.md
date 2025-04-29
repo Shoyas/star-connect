@@ -104,6 +104,8 @@ npm run format
 
 # Place here the folder structure
 
+---
+
 # 🌟 StarConnect
 
 > **"Bridging Dreams with Experts"**
@@ -134,3 +136,43 @@ Follow these simple steps to set up and run **StarConnect** locally:
 ```bash
 git clone "your-github-repository-link"
 ```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run for Development
+
+```bash
+npm run dev
+```
+
+### 4. Build the Project (for Production)
+
+```bash
+npm run build
+```
+
+### 5. Start the Production Server
+
+```bash
+npm start
+```
+
+✅ Testing Everything
+
+|:--------------------------------|:---------------------------------------|:---------------------------------------|
+| Test | Command | Notes |
+|:--------------------------------|:---------------------------------------|:---------------------------------------|
+| **Check ESLint manually** | `npm run lint` | Check for code warnings and errors |
+|:--------------------------------|:---------------------------------------|:---------------------------------------|
+| **Auto-fix ESLint issues** | `npm run lint:fix` | Automatically fix issues |
+|:--------------------------------|:---------------------------------------|:---------------------------------------|
+| **Format Code** | `npm run format` | Format code using Prettier |
+|:--------------------------------|:---------------------------------------|:---------------------------------------|
+| **Git Commit Testing (Husky)** | `git add .` | Husky auto-fixes or blocks bad commits |
+|:--------------------------------|:---------------------------------------|:---------------------------------------|
+| **"** | `git commit -m "Your commit message"` | For same like above |
+|:--------------------------------|:---------------------------------------|:---------------------------------------|
