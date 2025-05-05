@@ -14,11 +14,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
 a {
   color: inherit;
@@ -213,3 +213,102 @@ a {
     @apply bg-background text-foreground;
   }
 }
+
+
+/* ! Slide up & down */
+/* .animate-slide-up {
+  animation: slide-up linear infinite;
+}
+
+.animate-slide-down {
+  animation: slide-down linear infinite;
+}
+
+.slider-animation {
+  animation-duration: var(--animation-duration, 20s);
+}
+*/
+
+/* ! Slide up & down animation */
+/* @keyframes slide-up {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+} */
+
+/* .scroll-normal {
+  animation-direction: normal;
+}
+
+.scroll-reverse {
+  animation-direction: reverse;
+} */
+
+/* ! Vertical scroll animation */
+/* 
+@keyframes vertical-scroll {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-vertical-scroll {
+  animation: vertical-scroll linear infinite;
+} */
+
+/* ! Horizontal scroll animation */
+
+@keyframes vertical-scroll {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-vertical-scroll {
+  animation-name: vertical-scroll;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.animation-normal {
+  animation-direction: normal;
+}
+
+.animation-reverse {
+  animation-direction: reverse;
+}
+
+/* Optional: Add custom durations if needed */
+.duration-40s {
+  animation-duration: 40s;
+}
+
+/* .duration-50s {
+  animation-duration: 50s;
+}
+
+.duration-60s {
+  animation-duration: 60s;
+} */
