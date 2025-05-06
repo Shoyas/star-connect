@@ -301,9 +301,9 @@ a {
 }
 
 /* Optional: Add custom durations if needed */
-.duration-40s {
+/* .duration-40s {
   animation-duration: 40s;
-}
+} */
 
 /* .duration-50s {
   animation-duration: 50s;

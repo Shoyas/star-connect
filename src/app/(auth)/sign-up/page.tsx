@@ -158,6 +158,7 @@ const ImageSlider = ({ direction, images }: { direction: 'up' | 'down'; images: 
   const isUp = direction === 'up';
 
   const duration = images.length * 20;
+  console.log('duration', duration);
 
   return (
     //! 56px - 366px = 310px
